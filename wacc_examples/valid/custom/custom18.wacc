@@ -1,0 +1,25 @@
+# a simple increment function definition and usage
+
+# Output:
+# 1
+# 4
+
+# Program:
+struct thing {
+  int y;
+};
+
+struct thing2 {
+  int t;
+};
+
+begin
+  thing y = new thing(2);
+  int x = y.y;
+  if x == 2 then
+    println("Struct working!")
+  else
+    println("Struct not working :(")
+  fi;
+  println(x)
+end

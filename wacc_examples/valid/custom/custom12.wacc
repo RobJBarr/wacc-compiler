@@ -1,0 +1,17 @@
+# simple variable scoping test
+
+# Output:
+# 2
+# 4
+# 2
+
+# Program:
+
+begin
+  int fibonacci(int n, bool toPrint) is
+    int f1 = n ;
+    return f1
+  end
+  int x = call fibonacci(5, true)
+end
+

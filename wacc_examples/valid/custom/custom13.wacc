@@ -1,0 +1,17 @@
+# simple variable scoping test
+
+# Output:
+# 2
+# 4
+# 2
+
+# Program:
+
+begin
+  int thing(int x, bool y) is
+    int b = x ;
+    return b
+  end
+  int z = call thing(3, true)
+end
+

@@ -1,0 +1,17 @@
+# a simple increment function definition and usage
+
+# Output:
+# 1
+# 4
+
+# Program:
+
+begin
+  int thing(pair(bool, bool) t) is
+    int x = 3 ;
+    bool r = fst t ;
+    return x
+  end
+  pair(bool, bool) p = newpair(true, false) ;
+  int x = call thing(p)
+end
